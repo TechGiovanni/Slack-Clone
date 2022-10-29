@@ -1,0 +1,39 @@
+/* plus button to add  */
+.h2-plus-icon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-plus{
+  font-size: 26px;
+}
+
+/* active or inactive circles  */
+.circle{
+  position: relative;
+  top: -1.2px;
+  background-color: lightgreen;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: var(--margin-right-icons);
+}
+
+.circle-inactive{
+  background-color: var(--text-secondary-subtitle);
+}
+
+/* channel icons  */
+.channel-icon {
+  display: flex;
+  justify-content: flex-between;
+  align-items: center;
+  color: var(--text-secondary-subtitle);
+}
+.channel-left-icons{
+  position: relative;
+  bottom: 2px;
+  padding: auto;
+  font-size: 14px;
+  margin-right: var(--margin-right-icons);
+}

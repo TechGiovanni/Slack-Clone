@@ -1,0 +1,43 @@
+/* TODO: slack layout */
+.message-feed-wrapper{
+  height: 100vh;
+  padding: 0 16px;
+  flex-grow: 1;
+  overflow-x: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-default-white);
+}
+.header-feed-section {
+  /* border: 1px solid red; */
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid rgb(239, 238, 238);
+  margin-bottom: 16px;
+  flex-shrink: 0;
+  background-color: var(--bg-default-white);
+}
+.feed-header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.feed-header > h2{
+  font-size: 24px;
+}
+.header-icon-flex{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.messages-header-icon{
+  font-size: 20px;
+  margin-right: 6px;
+  margin-top: 3px;
+}
+.feed-messages{
+  height: 100%;
+}

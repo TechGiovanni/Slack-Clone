@@ -1,0 +1,52 @@
+/* Importing Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800');
+
+/* Importing components */
+@import url("components/sidebars.css");
+@import url("components/badges.css");
+@import url("components/chat.css");
+@import url("components/messages.css");
+
+/* Importing layouts */
+@import url("layouts/slack.css");
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+h2 {
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+h3 {
+  font-size: 23px;
+  margin-bottom: 0.25rem;
+}
+.padded {
+  padding: 30px 0;
+}
+
+.container-wrapper {
+  margin: 0;
+  padding: 0px 0px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,14 @@
+.text-box-wrapper{
+  /* border: 2px solid red; */
+  position: sticky;
+  bottom: 0px;
+  background-color: var(--bg-default-white);
+  padding-bottom: 16px;
+  min-width:20px;
+  margin: 0 16px;
+}
+.flex-message-feed{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
